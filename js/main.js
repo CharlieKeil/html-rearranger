@@ -17,7 +17,7 @@ $body.append($aboveHeading);
 $body.append($aboveList);
 
 $('ul li').each(function () {
-  if ($(this).hasClass('below')){
+  if ($(this).hasClass('below')) {
     $belowList.append($(this));
   } else {
     $aboveList.append($(this));
